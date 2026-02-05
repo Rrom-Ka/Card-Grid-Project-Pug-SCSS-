@@ -1,0 +1,17 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    @include clearListStryles;
+
+    &__item {
+        width: 275px;
+        margin-bottom: $greedGutter;
+
+        &:not(:nth-child(4n)) {
+            margin-right: $greedGutter;
+        }
+    }
+}
