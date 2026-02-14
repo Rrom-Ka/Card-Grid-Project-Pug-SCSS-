@@ -28,5 +28,10 @@
 3. Нажмите кнопку **Watch Sass** в нижней панели VS Code.
 4. Откройте `index.html` через Live Server.
 
+## 📦 Быстрый старт
+
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/Rrom-Ka/Card-Grid-Project-Pug-SCSS-.git
 ---
 *Developed as part of a frontend training module.*
